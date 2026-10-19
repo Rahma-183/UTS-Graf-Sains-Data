@@ -1,0 +1,37 @@
+# Virtual Environment
+myvenv/
+env/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Credential & Sensitive Files
+.env
+*.pem
+
+# Large Dataset Files (>100MB / Raw Data Kaggle)
+ecommerce-dataset/
+events.csv
+*.zip
+*.rar
+
+# Output Temporary/Scratch
+data_filtered/*.zip
+
+# File Soal (PDF)
+soal uts.pdf
+
+# Legacy Notebooks (sudah digabung ke 01_ & 02_)
+uts_pendahuluan.ipynb
+uts_wrangling_eda.ipynb
+uts_vsm_networkx.ipynb
+uts_similarity_neo4j.ipynb
+uts_analytics_rekomendasi.ipynb
+
+# Panduan Internal
+PANDUAN_TANYA_JAWAB_DOSEN.md
