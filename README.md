@@ -13,11 +13,14 @@ Repositori ini berisi dokumentasi lengkap, kode program, visualisasi graf, dan a
 ├── .gitignore                          # Menjaga keamanan file kredensial dan dataset besar
 ├── plot_user_projection.png            # Visualisasi graf proyeksi User-User (NetworkX)
 ├── plot_item_projection.png            # Visualisasi graf proyeksi Item-Item (NetworkX)
-├── hasil graf sebelum perhitungan similarity.png     # Visualisasi graf soal 2.1 no 8
-├── hasil graf setelah perhitungan similarity.png     # Visualisasi graf soal 2.1 no 8
+├── Plot sebelum similarity.png         # Visualisasi graf soal 2.1 no 8 (Interaksi Tak Langsung via Visitor)
+├── Plot setelah similarity.png         # Visualisasi graf soal 2.1 no 8 (Relasi Langsung SIMILAR Antar Item)
 └── data_filtered/
     ├── events_p1_train.csv             # Dataset hasil filter periode Training (P1)
-    └── events_p2_test.csv              # Dataset hasil filter periode Testing (P2)
+    ├── events_p2_test.csv              # Dataset hasil filter periode Testing (P2)
+    ├── user_projection.csv             # Hasil proyeksi graf User-User (bobot shared items)
+    ├── item_projection.csv             # Hasil proyeksi graf Item-Item (bobot shared visitors)
+    └── similarity_results.csv          # Hasil Cosine Similarity lengkap dengan daftar shared visitors
 ```
 
 ---
